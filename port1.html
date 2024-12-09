@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Como Estruturar um Código HTML</title>
+    <link rel="stylesheet" href="styles1.css">
+</head>
+<body>
+  
+    <header> 
+        <h1>Aprenda a Estruturar um Código HTML</h1>
+        <p>Entenda o básico de HTML de forma simples e prática!</p>
+    </header>
+
+    
+    <main>
+        
+        <section class="section">
+            <h2>1. Estrutura Básica</h2>
+            <p>Todo arquivo HTML segue uma estrutura padrão que garante que ele seja interpretado corretamente pelo navegador.</p>
+            <p>Eis como começa:</p>
+            <pre>
+!DOCTYPE html
+html lang="pt-BR"
+    head
+       !-- Configurações da página --
+    /head
+    body
+        !-- Conteúdo visível --
+    /body
+/html
+            </pre>
+        </section>
+
+        
+        <section class="section">
+            <h2>2. Cabeçalho (<code>head</code>)</h2>
+            <p>
+                O cabeçalho não mostra nada na página, mas é essencial para definir coisas como o título da aba,
+                o estilo e informações importantes sobre a página.
+            </p>
+            <p>Exemplo de um cabeçalho:</p>
+            <pre>
+head
+    meta charset="UTF-8"; 
+    meta name="viewport" content="width=device-width, initial-scale=1.0";Adapta para mobile -->
+    titleMinha Primeira Página/title 
+    link rel="stylesheet" href="styles.css" 
+/head
+            </pre>
+        </section>
+
+        
+        <section class="section">
+            <h2>3. O Corpo (<code>body</code>)</h2>
+            <p>
+                É aqui que fica o conteúdo visível da página: textos, imagens, botões, links e tudo que o usuário interage.
+            </p>
+            <p>Veja um exemplo simples:</p>
+            <pre>
+body
+    h1 Bem-vindo!/h1 
+    p Essa é a minha página de exemplo./p 
+/body
+            </pre>
+        </section>
+    </main>
+
+    <main>
+        
+        <section class="section">
+            <h2>Tags mais utilizadas em HTML</h2>
+            <p>Veja abaixo uma lista das tags HTML mais comuns e suas funções:</p>
+            <ul>
+                <li><strong>html</strong> Define o documento HTML.</li>
+                <li><strong>head</strong> Contém informações sobre o documento, como metadados e links para estilos.</li>
+                <li><strong>title</strong> Define o título que aparece na aba do navegador.</li>
+                <li><strong>body</strong> Contém todo o conteúdo visível da página.</li>
+                <li><strong>&lt;h1; a; h6</strong> Usadas para títulos, com diferentes níveis de importância.</li>
+                <li><strong>p</strong> Define um parágrafo.</li>
+                <li><strong>a</strong> Cria links para outras páginas ou seções.</li>
+                <li><strong>img</strong> Insere imagens.</li>
+                <li><strong>ul;</strong> Cria listas desordenadas (com marcadores).</li>
+                <li><strong>ol</strong> Cria listas ordenadas (numeradas).</li>
+                <li><strong>li</strong> Define itens dentro de listas.</li>
+                <li><strong>div</strong> Cria divisões de conteúdo, útil para organizar o layout.</li>
+                <li><strong>span</strong> Define pequenos trechos de texto para estilização específica.</li>
+            </ul>
+        </section>
+    </main>
+
+    
+    <footer>
+        <p> 2024 - Seu Guia de HTML. Todos os direitos reservados.</p>
+    </footer>
+</body>
+
+</html>
